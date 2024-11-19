@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ADHINAYAKA DAILY NEWSPAPER</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<style>
+	/* General Styles */
+body {
+	background-color: lightsalmon;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.logo{
+	height: 100px;
+	width: auto;
+	float: center;
+	margin-right: 15px;
+}
+
+/* Header */
+header {
+    background: #0056b3;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://th.bing.com/th/id/R.b736be282ad98e04cadd9621951bb4cc?rik=LUwBInLyEnEbig&riu=http%3a%2f%2fweknowyourdreams.com%2fimages%2fnews%2fnews-06.jpg&ehk=ipnkma7bHG39UnTd2JBHMHy4UPWlH1Eryf%2fEmt2vn7o%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+    margin-bottom: 20px;
+}
+
+.hero-content .btn {
+    background: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: line;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.hero-content .btn:hover {
+    background: #e6b800;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Categories */
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.category {
+    flex: 1 1 calc(25% - 40px);
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.category h3 {
+    margin-bottom: 10px;
+}
+
+/* Subscribe Form */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form input[type="email"] {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #003d80;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+</style>
+<body>
+	<header>
+		<div class="container">
+			<img src="C:\Users\lehan\OneDrive\Desktop\adhinayaka logo.png.jpg" alt="ADHINAYAKA paper logo" class="logo">
+			<h1>ADHINAYAKA DAILY NEWSPAPER</h1>
+			<nav>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#Categories">Categories</a></li>
+					<li><a href="#Subscribe">Subscribe</a></li>
+					<li><a href="#Contact">Contact</a></li>
+				</ul>
+
+			</nav>
+		</div>
+	</header>
+	<section id="home" class="hero">
+		<div class="hero-content">
+			<h2 style="text-decoration-color: black; text-decoration-style:solid;">YOUR TRUSTED DAILY NEWS</h2>
+			<p style="text-decoration-color:black; text-decoration-style: solid;">stay updated with the latest and most reliable news from around the world.</p>
+			<a href="#Subscribe" class="button">Subscribe now</a>
+		</div>
+	</section>
+	<section id="About">
+		<div class="container">
+			<h2>ABOUT US</h2>
+			<p>Adhinayaka paper is a premier daily newspaper providing credible and indepth coverage on politics,business,entertainment,and more .we are committed to delivering unbaised news with integrity .</p>
+		</div>
+	</section>
+	<section id="Categories">
+		<div class="container">
+			<h2>News categories</h2>
+			<div class="categories">
+				<div class="category">
+					<h3>POLITICS</h3>
+					<p>latest updates and analysis on global and local politics .</p>
+				</div>
+				<div class="category">
+					<h3>BUSINESS</h3>
+					<p>News from the financial world,market ,and economy .</p>
+				</div>
+				<div class="category">
+					<h3>ENETRTAINMENT</h3>
+					<p>Breaking news from the world of movies,music,and television.</p>
+				</div>
+				<div class="category">
+					<h3>SPORTS</h3>
+					<p>Scores,news,and updates from your favorite sports.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="Subscribe">
+		<div class="container">
+			<h2>SUBSCRIBE TO ADHINAYAKA PAPER</h2>
+			<p>get the latest news delivered to your inboxevery day.</p>
+			<form action="#" method="post">
+				<input type="email" name="email" placeholder="enter your email" required>
+				<button type="submit" class="button">Subscribe</button>
+			</form>
+		</div>
+	</section>
+	<footer id="contact">
+		<div class="container">
+			<h2>CONTACT US</h2>
+			<p>Email:adhinayaka1@gmail.com</p>
+			<p>phone:9480207347</p>
+			<p>address:#844,thottibavi quarters ,opp dc bunglow ,kolar,563101,karnataka.</p>
+			<p>&copy;2024 ADHINAYAKA PAPER.all rights reserved .</p>
+		</div>
+	</footer>
+
+</body>
+</html>
+
+
